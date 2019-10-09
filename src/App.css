@@ -1,22 +1,95 @@
-.App {
+/*FORM STYLES */
+
+.form-container {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+form {
+  margin: 0 auto;
+  background-color: #eee;
+  width: 50%;
+  height: auto;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+form h2 {
+  font-size: 2rem;
+  color: turquoise;
+}
+
+.form-label {
+  font-size: 2rem;
+  font-weight: 300;
+  display: block;
+  margin: 1rem;
+}
+
+.form-input {
+  width: 40%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.submit-btn {
+  display: block;
+  padding: 1rem;
+  background-color: black;
   color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 2rem auto;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #09d3ac;
+.submit-btn:hover {
+  background-color: green;
+}
+
+/* IMAGE LIST STYLES */
+.image-card-container {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.image-card {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.main-image {
+  max-width: 100%;
+}
+
+.image-title {
+  font-size: 2rem;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  padding: 1.2rem;
+}
+
+/*HEADER */
+.header-container {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 1rem;
+  color: darkslategrey;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+li:hover {
+  color: black;
 }
